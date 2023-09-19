@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+           <a href="home.html"> <img src="https://img.icons8.com/material-outlined/24/000000/home--v2.png"> </a>
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              
+            </div>
+          </form>
+          <form action="registeration.php" class="sign-up-form" method="post">
+            <a href="home.html"> <img src="https://img.icons8.com/material-outlined/24/000000/home--v2.png"> </a>
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name="name" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="pswd" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+  
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Welcome to Char Dham Register yourself , and lets start the quiz 
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="./img/Untitled design.png" class="image" style="width: 500px;" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Already Register .<br> Exciteed.....! <br>Signup now to start the quiz.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="./img/Untitled design1.png" class="image" style="width: 350px; margin-bottom: -78px; margin-right: -64px;" alt="" />
+        </div
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
